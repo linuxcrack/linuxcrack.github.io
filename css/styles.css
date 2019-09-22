@@ -268,5 +268,43 @@ footer .redes i.r3{
     .menu a div{
         width: 100%;
     }
+    header .slider p{
+      left: 30%;
+    }
+}
+@media screen and (max-width:767px){
+    header .slider p {
+      left: 21%;
+  }
+  header .slider .col .carousel-inner {
+    height: 300px;
+    width: 100%;
+  }
+}
+@media screen and (max-width:575px){
+  
+  header .menu .c-1 {
+    padding: 5px 0px;
+  }
+  header .menu .c-2 {
+    padding: 5px 0px;
+  }
+  header .menu .c-3 {
+    padding: 5px 0px;
+  }
+  header .slider .col .carousel-inner {
+    height: 220px;
+  
+  }
+  header .slider p {
+    position: relative;
+    display: none;
+  }
 }
 
+@media screen and (max-width:320px){
+  header .slider .col .carousel-inner {
+    height: 193px;
+    width: 100%;
+}
+}
