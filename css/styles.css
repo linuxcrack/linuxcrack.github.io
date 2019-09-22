@@ -271,6 +271,10 @@ footer .redes i.r3{
     header .slider p{
       left: 30%;
     }
+    .modal.show .modal-dialog .modal-content {
+      width: 724px;
+      height: auto;
+  }
 }
 @media screen and (max-width:767px){
     header .slider p {
@@ -280,6 +284,10 @@ footer .redes i.r3{
     height: 300px;
     width: 100%;
   }
+  .modal.show .modal-dialog .modal-content {
+    width: 600px;
+    height: auto;
+}
 }
 @media screen and (max-width:575px){
   
@@ -300,11 +308,19 @@ footer .redes i.r3{
     position: relative;
     display: none;
   }
+  .modal.show .modal-dialog .modal-content {
+    width: 400px;
+    height: auto;
+}
 }
 
 @media screen and (max-width:320px){
   header .slider .col .carousel-inner {
     height: 193px;
     width: 100%;
+}
+.modal.show .modal-dialog .modal-content {
+  width: 200px;
+  height: auto;
 }
 }
