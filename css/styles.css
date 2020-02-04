@@ -5,7 +5,7 @@
   font-family: 'Roboto', sans-serif;
 }
 body{
-  background: #f2f2f2;
+  background: #18202d;
 
 }
 
@@ -57,15 +57,15 @@ header .menu a div .span{
   font-weight: 900;
 }
 header .menu .c-1{ 
-  background:#801336; 
+  background:#151515; 
   text-decoration: none;
 }
 header .menu .c-2{
-  background:#c72c41;   
+  background:#333232;   
   text-decoration: none;
 }
 header .menu .c-3{ 
-  background:#ee4540; 
+  background:#5d3f3f; 
   text-decoration: none; 
 }
 
@@ -163,20 +163,22 @@ main .acerca-de .foto img{
 }
 main .acerca-de .foto .nombre{
   color: #545454;
-  font-weight: 400;
+  font-weight: 900;
   font-size: 18px;
   letter-spacing: 2px;
 }
 main .acerca-de .info .titulo{
-  color: #005385;
-  font-family: 'Open Sans';
-  font-weight: 300;
-  font-size: 40px;
-  margin-bottom:30px; 
+  color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 
 main .acerca-de .info .resumen{
   letter-spacing: 1px;
+  color: #687284;
+    font-weight: 500;
 }
 main .acerca-de .info .label{
   font-size:18px;
