@@ -83,7 +83,7 @@ header .slider p{
     z-index: 10000;
     transform: translate(10px, 10px);
     left: 35%;
-    top: 40%;
+    top: 30%;
     font-size: 40px;
     color: #fff;
     text-shadow: 0.1em 0.1em #333
@@ -162,7 +162,7 @@ main .acerca-de .foto img{
   /* background-size: cover; */
 }
 main .acerca-de .foto .nombre{
-  color: #545454;
+  color: #f0efef;
   font-weight: 900;
   font-size: 18px;
   letter-spacing: 2px;
